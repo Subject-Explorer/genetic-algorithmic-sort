@@ -1,4 +1,4 @@
-package representation;
+package org.subject_explorer.representation;
 
 import java.util.List;
 import java.util.Map;

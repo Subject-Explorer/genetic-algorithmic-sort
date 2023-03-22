@@ -1,9 +1,11 @@
-import data_access.CSVParser;
-import genetic_algorithm.Individual;
-import genetic_algorithm.Population;
+package org.subject_explorer;
+
+import org.subject_explorer.data_access.CSVParser;
+import org.subject_explorer.genetic_algorithm.Individual;
+import org.subject_explorer.genetic_algorithm.Population;
 import processing.core.PApplet;
-import representation.NodeGrid;
-import ui.Window;
+import org.subject_explorer.representation.NodeGrid;
+import org.subject_explorer.ui.Window;
 
 /**
  * Main.java

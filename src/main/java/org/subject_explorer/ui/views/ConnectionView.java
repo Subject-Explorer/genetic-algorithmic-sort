@@ -1,6 +1,6 @@
-package ui.views;
+package org.subject_explorer.ui.views;
 
-import ui.Window;
+import org.subject_explorer.ui.Window;
 
 public class ConnectionView {
     private static final float WIDTH = 80;

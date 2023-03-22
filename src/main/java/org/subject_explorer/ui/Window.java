@@ -1,7 +1,8 @@
-package ui;
+package org.subject_explorer.ui;
 
 import processing.core.PApplet;
-import ui.views.IndividualView;
+import org.subject_explorer.genetic_algorithm.Individual;
+import org.subject_explorer.ui.views.IndividualView;
 
 /**
  * ui.Window.java
@@ -60,8 +61,8 @@ public class Window extends PApplet {
      */
     @Override
     public void settings() {
-        //size(WIDTH, HEIGHT);
-        fullScreen();
+        size(WIDTH, HEIGHT);
+        //fullScreen();
         //pixelDensity(displayDensity());
         pixelDensity(2);
     }
@@ -104,7 +105,7 @@ public class Window extends PApplet {
         // source.display();
     }
 
-    public void setIndividual(genetic_algorithm.Individual individual) {
+    public void setIndividual(Individual individual) {
         this.individual.setIndividual(individual);
     }
 

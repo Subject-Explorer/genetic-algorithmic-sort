@@ -1,7 +1,7 @@
-package ui.views;
+package org.subject_explorer.ui.views;
 
 import processing.core.PConstants;
-import ui.Window;
+import org.subject_explorer.ui.Window;
 
 public class NodeView {
     private static final float WIDTH = 80;

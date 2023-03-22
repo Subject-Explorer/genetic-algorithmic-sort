@@ -1,6 +1,6 @@
-package genetic_algorithm;
+package org.subject_explorer.genetic_algorithm;
 
-import representation.NodeGrid;
+import org.subject_explorer.representation.NodeGrid;
 
 import java.util.Random;
 
@@ -44,7 +44,6 @@ public class Individual {
      */
     private static short[][] connections;
 
-    private static short[][] secondary_connections;
     /**
      * The random number generator
      */
@@ -156,20 +155,8 @@ public class Individual {
      * Mutates the individual.
      * The individual is mutated by swapping the values of two random columns in a random row.
      *
-     * @param mutations The number of mutations
+     * @param mutationRate The number of mutations
      */
-    public void mutate(int mutations) {
-        int row, columnA, columnB;
-        for (int counter = mutations; counter > 0; --counter) {
-            // Randomly select a row and two columns
-            row = random.nextInt(rows);
-            columnA = random.nextInt(columns);
-            columnB = random.nextInt(columns);
-
-            // Swap the values of the columns
-            this.swap(row, columnA, columnB);
-        }
-    }
     public void mutate(double mutationRate) {
         int row, columnA, columnB;
         for (int counter = (int) (mutationRate * rows * columns); counter > 0; --counter) {

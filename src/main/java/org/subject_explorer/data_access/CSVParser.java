@@ -1,4 +1,4 @@
-package data_access;
+package org.subject_explorer.data_access;
 
 import java.io.*;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package ui;
+package org.subject_explorer.ui;
 
 /**
  * ui.InputField.java

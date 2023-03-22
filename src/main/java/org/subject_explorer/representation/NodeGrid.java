@@ -1,6 +1,6 @@
-package representation;
+package org.subject_explorer.representation;
 
-import data_access.CSVParser;
+import org.subject_explorer.data_access.CSVParser;
 
 import java.io.FileNotFoundException;
 

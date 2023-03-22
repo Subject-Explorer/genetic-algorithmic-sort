@@ -1,4 +1,4 @@
-package genetic_algorithm;
+package org.subject_explorer.genetic_algorithm;
 
 import java.util.Arrays;
 import java.util.Comparator;

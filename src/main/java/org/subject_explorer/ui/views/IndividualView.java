@@ -1,10 +1,11 @@
-package ui.views;
+package org.subject_explorer.ui.views;
 
-import ui.Window;
+import org.subject_explorer.genetic_algorithm.Individual;
+import org.subject_explorer.ui.Window;
 
 public class IndividualView {
     private final Window window;
-    private genetic_algorithm.Individual individual;
+    private Individual individual;
     private final float X = 80;
     private final float Y = 40;
 
@@ -12,7 +13,7 @@ public class IndividualView {
         this.window = window;
     }
 
-    public void setIndividual(genetic_algorithm.Individual individual) {
+    public void setIndividual(Individual individual) {
         this.individual = individual;
     }
 
